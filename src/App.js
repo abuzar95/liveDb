@@ -1,12 +1,12 @@
 import "./App.css";
-import { Banner, OrderTable } from "./components";
+import { Banner, Monitor, OrderTable } from "./components";
 
 function App() {
   return (
-    <div className="App" >
-      <Banner />
-      {/* <OrderTable /> */}
-      {/* <Monitor /> */}
+    <div className="App">
+      {/* <Banner /> */}
+      <OrderTable />
+      <Monitor />
     </div>
   );
 }

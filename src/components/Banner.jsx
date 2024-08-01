@@ -13,7 +13,6 @@ export const Banner = () => {
         backgroundPosition: "center", // Center the image
       }}
     >
-      
       <Chatbot />
     </div>
   );
