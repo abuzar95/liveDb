@@ -1,0 +1,32 @@
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-table th,
+.data-table td {
+  padding: 2rem;
+  text-align: left;
+  color: #fff;
+}
+
+.data-table th {
+  background-color: #1f2937;
+  color: #9ca3af;
+}
+
+.data-table tr:nth-child(even) {
+  background-color: #1f2937;
+}
+.data-table tr:nth-child(odd) {
+  background-color: #4b5563;
+}
+
+.data-table tr:hover {
+  background-color: #f1f1f1;
+}
