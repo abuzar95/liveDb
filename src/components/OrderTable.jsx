@@ -13,7 +13,7 @@ export const OrderTable = () => {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          "https://srv572320.hstgr.cloud:3100/get-all-orders"
+          "https://srv572320.hstgr.cloud:3100/orders"
         );
         setData(response.data);
         setLoading(false);
